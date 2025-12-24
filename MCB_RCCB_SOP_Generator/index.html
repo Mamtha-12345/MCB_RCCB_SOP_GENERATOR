@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MCB & RCCB Assembly SOP Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>MCB & RCCB Assembly SOP Generator</h1>
+    <p>Training Engineer – SOP & Quality Tool</p>
+</header>
+
+<section class="container">
+    <h2>Select Product Type</h2>
+
+    <select id="product">
+        <option value="">-- Select --</option>
+        <option value="MCB">MCB</option>
+        <option value="RCCB">RCCB</option>
+    </select>
+
+    <button onclick="generateSOP()">Generate SOP</button>
+
+    <div id="output"></div>
+</section>
+
+<footer>
+    <p>For Training & Quality Standardization Purpose</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
